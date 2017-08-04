@@ -17,6 +17,7 @@ Page({
   },
   scrollTouchmove:function(e){
     let py = e.touches[0].pageY;
+    console.log(e.touches[0].pageY);
     let d = this.data;
     this.setData({
       endy: py,

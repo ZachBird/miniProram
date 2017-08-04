@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    .container{
+        width:1200px;
+        height:500px;
+        margin:200px auto;
+        background:#b2b2b2;
+    }
+    .box1{
+        width:400px;
+        height:475px;
+        background:#112233;
+        float:left;
+    }
+    .box2{
+        width:400px;
+        height:475px;
+        background:#223344;
+        float:left;
+    }
+    .box3{
+        width:400px;
+        height:475px;
+        background:#445566;
+        float:left;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <script>
+        var b1 = document.getElementsByClassName("box1")[0];
+        b1.onclick = function(e){
+            alert("left");
+        }
+        var b2 = document.getElementsByClassName("box2")[0];
+        b2.onclick = function(e){
+            alert("middle");
+        }
+        var b3 = document.getElementsByClassName("box3")[0];
+        b3.onclick = function(e){
+            alert("right");
+        }
+    </script>
+</body>
+</html>
