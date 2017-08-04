@@ -1,0 +1,195 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="banner" mode="aspectFit" src="/img/banner.jpg"></image>
+  <!--<view style="  display: flex;flex-direction: column; align-items: center;">
+    <image class="t" mode="aspectFit" src="/img/t1.png"></image>
+    <text>美食</text>
+  </view>-->
+  <!--<view class="bnrs-indic-wrap">
+  </view>-->
+  <navigator url="list">
+    <view style="display: flex;">
+      <view class="icon">
+        <image class="t" mode="aspectFit" src="/img/t1.png"></image>
+        <text class="text">美食</text>
+      </view>
+      <view class="icon">
+        <image class="t" mode="aspectFit" src="/img/t2.png"></image>
+        <text class="text">超市</text>
+      </view>
+      <view class="icon">
+        <image class="t" mode="aspectFit" src="/img/t3.png"></image>
+        <text class="text">鲜果购</text>
+      </view>
+      <view class="icon">
+        <image class="t" mode="aspectFit" src="/img/t4.png"></image>
+        <text class="text">甜点饮品</text>
+      </view>
+    </view>
+    <view style="display: flex;">
+      <view class="icon">
+        <image class="t" mode="aspectFit" src="/img/t5.png"></image>
+        <text class="text">正餐优选</text>
+      </view>
+      <view class="icon">
+        <image class="t" mode="aspectFit" src="/img/t6.png"></image>
+        <text class="text">美团专送</text>
+      </view>
+      <view class="icon">
+        <image class="t" mode="aspectFit" src="/img/t7.png"></image>
+        <text class="text">夜宵</text>
+      </view>
+      <view class="icon">
+        <image class="t" mode="aspectFit" src="/img/t8.png"></image>
+        <text class="text">龙虾烧烤</text>
+      </view>
+    </view>
+    <view class="top-placeholder">
+      <text class="text">附近商家</text>
+    </view>
+  </navigator>
+
+  <view class="split-h" style=" overflow: hidden;position:relative">
+    <text style="position: absolute; color: #6b450a;background: #fdd943;   transform: rotate(-45deg);font-size:10pt;margin-top:-30px;margin-left:-22px;width:60px;height:30px;text-align: center;line-height:45px;  ">品牌</text>
+    <image src="http://p1.meituan.net/0.120.100/xianfu/d3a267d8418c66850c3a7b8358aa8c408360.jpeg" style="width:94px;height:74px"></image>
+    <view style="flex:1">
+      <view>
+        <text style="font-size:12pt">晋B•2008烧烤·海鲜</text>
+        <image style="width:15px;height:15px" src="http://p1.meituan.net/xianfu/32200c3060be7903f62c9076308619ee734.png"></image>
+      </view>
+      <view style="align-items: center;display: flex; margin-top:5px;flex: 1;">
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <text style="font-size:10pt;color:#656565">月售132单</text>
+      </view>
+      <view class="">
+        <text style="font-size:10pt;color:#656565">起送价￥25|配送￥12</text>
+      </view>
+    </view>
+    <view>
+      <view style="text-align:right">
+        <text style="font-size:10pt;color:#656565;">5.1km</text>
+      </view>
+      <view style="text-align:right">
+        <text style="font-size:10pt;color:#656565">33分钟</text>
+      </view>
+      <view class="">
+        <text class="allocation">美团专送</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view style="height:10px;background-color: #efefef;"></view>
+
+
+  <view class="split-h">
+    <image src="http://p0.meituan.net/0.120.100/xianfu/cee03686ce4a833e7a61fabbc59da0ab6144.jpg" style="width:94px;height:74px"></image>
+    <view style="flex:1">
+      <view>
+        <text style="font-size:12pt">拼豆夜宵（车公庄）</text>
+        <image style="width:15px;height:15px" src="http://p1.meituan.net/xianfu/32200c3060be7903f62c9076308619ee734.png"></image>
+      </view>
+      <view style="align-items: center;display: flex; margin-top:5px;flex: 1;">
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <text style="font-size:10pt;color:#656565">月售983单</text>
+      </view>
+      <view class="">
+        <text style="font-size:10pt;color:#656565">起送价￥30|配送￥9</text>
+      </view>
+    </view>
+    <view>
+      <view style="text-align:right">
+        <text style="font-size:10pt;color:#656565;">2.1km</text>
+      </view>
+      <view style="text-align:right">
+        <text style="font-size:10pt;color:#656565">44分钟</text>
+      </view>
+      <view class="">
+        <!--<text class="allocation">美团专送</text>-->
+      </view>
+    </view>
+  </view>
+  <view style="height:10px;background-color: #efefef;"></view>
+
+  <view class="split-h" style=" overflow: hidden;position:relative">
+    <text style="position: absolute; color: #6b450a;background: #fdd943;   transform: rotate(-45deg);font-size:10pt;margin-top:-30px;margin-left:-22px;width:60px;height:30px;text-align: center;line-height:45px;  ">品牌</text>
+    <image src="http://p0.meituan.net/0.120.100/xianfu/d19a01f08e2f241ae5b1151d3def25427985.jpeg" style="width:94px;height:74px"></image>
+    <view style="flex:1">
+      <view>
+        <text style="font-size:12pt">管氏翅吧（新街口店）</text>
+        <image style="width:15px;height:15px" src="http://p1.meituan.net/xianfu/32200c3060be7903f62c9076308619ee734.png"></image>
+      </view>
+      <view style="align-items: center;display: flex; margin-top:5px;flex: 1;">
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <text style="font-size:10pt;color:#656565">月售206单</text>
+      </view>
+      <view class="">
+        <text style="font-size:10pt;color:#656565">起送价￥25|配送￥12(夜间)</text>
+      </view>
+    </view>
+    <view>
+      <view style="text-align:right">
+        <text style="font-size:10pt;color:#656565;">5.1km</text>
+      </view>
+      <view style="text-align:right">
+        <text style="font-size:10pt;color:#656565">33分钟</text>
+      </view>
+      <view class="">
+        <text class="allocation">美团专送</text>
+      </view>
+    </view>
+  </view>
+  <view style="height:10px;background-color: #efefef;"></view>
+
+  <view class="split-h">
+    <image src="http://p0.meituan.net/0.120.100/xianfu/fd3a8462080c71f60f2581c2e7c1d3f43010.jpeg" style="width:94px;height:74px"></image>
+    <view style="flex:1">
+      <view>
+        <text style="font-size:12pt">北京麦当劳展览路餐厅</text>
+        <image style="width:15px;height:15px" src="http://p1.meituan.net/xianfu/32200c3060be7903f62c9076308619ee734.png"></image>
+      </view>
+      <view style="align-items: center;display: flex; margin-top:5px;flex: 1;">
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <view class="star"></view>
+        <text style="font-size:10pt;color:#656565">月售1663单</text>
+      </view>
+      <view class="">
+        <text style="font-size:10pt;color:#656565">起送价￥0|配送￥9</text>
+      </view>
+    </view>
+    <view>
+      <view style="text-align:right">
+        <text style="font-size:10pt;color:#656565;">4.1km</text>
+      </view>
+      <view style="text-align:right">
+        <text style="font-size:10pt;color:#656565">31分钟</text>
+      </view>
+      <view class="">
+        <text class="allocation">美团专送</text>
+      </view>
+    </view>
+  </view>
+  <view style="height:10px;background-color: #efefef;"></view>
+
+
+
+
+
+
+
+</view>

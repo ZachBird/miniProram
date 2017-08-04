@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTitleText": "商城首页",
+    "navigationBarTextStyle":"black",
+    "navigationBarBackgroundColor":"white",
+    "backgroundColor": "#51c5ef",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#51c5ef",
+    "color": "#ffffff",
+    "selectedColor": "#000000",
+    "position":"top",
+    "list": [
+      {
+      "pagePath":"pages/index/index",
+      "text":"商城首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "查看日志"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 1000,
+    "downloadFile": 1000
+  },
+  "debug": false
+}
+

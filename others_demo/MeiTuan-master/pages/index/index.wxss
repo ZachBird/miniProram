@@ -1,0 +1,118 @@
+/**index.wxss**/
+
+/*.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}*/
+
+.banner {
+  width: 100%;
+  height: 170px;
+  margin-top: -40px;
+}
+
+.icon {
+  margin-top: -20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon .t {
+  width: 80px;
+  height: 80px;
+}
+
+.icon .text {
+  font-size: 10pt;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+
+.bnrs-indic-wrap {
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  line-height: 8px;
+  z-index: 20;
+  bottom: -10px;
+  height: 20px;
+  font-size: 1px;
+  border: 1px solid #000;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0;
+  margin: 0;
+}
+
+/*.bnrs-indic {
+  width: 6px;
+  height: 6px;
+  border: 1px solid #fff;
+  margin: 0 2px;
+}*/
+
+.bnrs-indic-wrap .indic-focus {
+  background-color: #fff;
+}
+
+.top-placeholder {
+  width: 100%;
+  height: 30px;
+  background-color: #efefef;
+}
+
+.top-placeholder .text {
+  border-left: 3px solid #ffd705;
+  font-size: 10pt;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+
+
+
+.split-h{display: flex; align-items: center;padding-right: 15px}
+
+
+.star{
+    background: url(http://xs01.meituan.net/waimai_i/img/sprite/homestars.02ae04d0.png) no-repeat scroll 0px -33px;
+    background-size: cover;
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-right: -2px;
+    background-position: 0 -2px;
+
+
+}
+
+
+.allocation {
+    background-color: #ffd600;
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 9pt;
+    color: #784203;
+    font-weight: normal;
+    border-radius: 3px;
+    vertical-align: baseline;
+}

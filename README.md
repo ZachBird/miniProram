@@ -1,2 +1,2 @@
 # littleProgarm
-小程序的入门和demo
+> 微信小程序学习过程中的demo以及文档的repository.
