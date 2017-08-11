@@ -14,6 +14,7 @@ Page({
     this.setData({
       starty: py
     })
+    
   },
   scrollTouchmove:function(e){
     let py = e.touches[0].pageY;
