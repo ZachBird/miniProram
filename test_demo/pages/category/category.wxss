@@ -1,1 +1,16 @@
 /* category.wxss */
+page{
+    background-color: #eae5e3;
+}
+.aaaa{
+    background-color: #1e50a2;
+    color: #fff;
+}
+.baaa{
+    background-color: #bc64a4;
+    color: #fff;
+}
+.insideDrgee{
+    background-color: #89c3eb;
+    color: #fff;
+}

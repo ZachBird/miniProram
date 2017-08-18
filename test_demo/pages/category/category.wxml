@@ -1,5 +1,26 @@
 <!--category.wxml-->
-<block class="bindtext" wx:for="{{items}}"> 
-  <view class="123"> {{index}}: </view>
-  <view class="2323"> {{item.one}} </view>
+<!--三层循环数据绑定-->
+<!-- 注意点1.每一层都要改item，即默认变量名，不改在当前级别拿不到外层循环的数据，因为会被当前的item覆盖的覆盖-->
+<!--             2.每一层外面的容器也需要嵌套。-->
+<block class="outDrgee" wx:for="{{Drgee}}"> 
+   <text class="aaaa">
+        ┃{{item.id}}
+        ┃{{item.desc}}
+   </text>
+   <text class="innerDrgee" wx:for="{{item.secondDrgee}}" wx:for-item="inner">
+        <text class="baaa">
+                ┃{{item.id}}
+                ┃{{item.desc}}   
+                ┣{{inner.id}}
+                ┗{{inner.desc}}
+        </text>
+        <text class="insideDrgee" wx:for="{{inner.thirdDrgee}}" wx:for-item="inside">
+                ┃{{item.id}}
+                ┃{{item.desc}}   
+                ┣{{inner.id}}
+                ┣{{inner.desc}}        
+                ┣━{{inside.id}}
+                ┗━{{inside.desc}}
+        </text>
+    </text>
 </block>
